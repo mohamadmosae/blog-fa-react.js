@@ -1,0 +1,17 @@
+.text {
+  resize: none;
+  min-height: 100px;
+}
+.sub {
+  position: relative;
+  min-height: 50px;
+  & h6{
+overflow: hidden;
+  }
+  & p {
+    font-size: 13px;
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+  }
+}

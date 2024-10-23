@@ -1,0 +1,13 @@
+.blog-item-img {
+  position: relative;
+
+}
+.blog-item-img .blog-tools{
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  padding: 0 20px;
+  width: 100%;
+  justify-content: space-between;
+
+}

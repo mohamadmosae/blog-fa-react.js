@@ -1,0 +1,40 @@
+.register{
+         background: url(../../../public/images/register.svg);
+         background-size: 45%;
+         background-repeat: no-repeat;
+         height: 100vh;
+         background-position-y: center;
+}
+.auth-title{
+         border-bottom: 1px solid antiquewhite;
+         padding-bottom: 15px;
+}
+.login{
+         background: url(../../../public/images/login.svg);
+         background-size: 45%;
+         background-repeat: no-repeat;
+         height: 100vh;
+         background-position-y: center;
+}
+@media screen and (max-width:768px) {
+.login{
+background-size: 80%;
+background-position-y: inherit;
+background-position-x: center;
+display: flex;
+padding: 0 50px;
+}         
+.register{
+         background-size: 80%;
+         background-position-y: inherit;
+         background-position-x: center;
+         display: flex;
+         padding: 0 50px;
+}        
+.auth-res{
+         justify-content: flex-end;
+         flex-direction: column;
+         padding-bottom: 50px;
+
+} 
+}

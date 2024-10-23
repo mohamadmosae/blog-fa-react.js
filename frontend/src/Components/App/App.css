@@ -1,0 +1,9 @@
+@font-face {
+         font-family: "yekan";
+         src: url("../../fonts/Yekan-Bakh-FaNum-04-Regular.eot");
+
+}
+*{
+
+         font-family: "yekan " !important ;
+}
